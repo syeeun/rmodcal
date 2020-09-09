@@ -1,0 +1,11 @@
+Package: rmodcal
+Title: Assessing Risk Model Calibration with Missing Covariates
+Version: 0.0.1
+Authors@R: person("Yei Eun", "Shin", email = "syeeun@gmail.com", role = c("aut", "cre"))
+Description: We provide an R function that assesses risk model calibration with the measure 'observed-to-expected ratio', using inclusion probability weighting, weight adjustment using pseudo-risk values and multiple imputation. Standard errors and confidence intervals are also computed. 
+Depends: R (>= 3.5.1)
+License: What license is it under?
+  Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: MASS, sampling
